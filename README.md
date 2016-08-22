@@ -12,4 +12,5 @@ To get this:
 
 5. Run `python app.py` in your terminal
 
+> THE `click` branch contains the same implementation attempted using setuptools for click
 
