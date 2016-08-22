@@ -12,6 +12,7 @@ To get this on your local machine:
 
 5. Run `python app.py` in your terminal
 
+>  THE `click` branch contains the same implementation in click using the setuptools configuration
 
 
 
