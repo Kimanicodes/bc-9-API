@@ -6,6 +6,8 @@ import os
 from colorama import init
 from termcolor import cprint
 from pyfiglet import figlet_format
+import click
+
 
 os.system('clear')
 init(strip=not sys.stdout.isatty())  # strip colors if stdout is redirected
@@ -14,6 +16,11 @@ cprint(figlet_format('Cheki', font='starwars'),
        'yellow', 'on_blue', attrs=['bold'])
 baseurl = "http://api.openweathermap.org/data/2.5/weather"
 key = '=2bc3e79bb974a007818864813f53fd35'
+
+with click.progressbar(range(700000),
+                       fill_char=click.style('#', fg='yellow', bg='red')) as prog_bar:
+    for i in prog_bar:
+        pass
 
 cities = []
 count = 0
