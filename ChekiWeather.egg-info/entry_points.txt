@@ -1,0 +1,4 @@
+
+        [console_scripts]
+        chekiweather=chekiweather:weather_api_func
+    

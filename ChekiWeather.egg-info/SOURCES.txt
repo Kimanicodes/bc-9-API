@@ -1,0 +1,7 @@
+chekiweather.py
+ChekiWeather.egg-info/PKG-INFO
+ChekiWeather.egg-info/SOURCES.txt
+ChekiWeather.egg-info/dependency_links.txt
+ChekiWeather.egg-info/entry_points.txt
+ChekiWeather.egg-info/requires.txt
+ChekiWeather.egg-info/top_level.txt
