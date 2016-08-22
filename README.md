@@ -10,7 +10,7 @@ To get this:
 
 4. Run a `pip install -r requirements.txt`
 
-5. Run `python app.py` in your terminal
+5. Run `python chekiweather.py` in your terminal
 
 > THE `click` branch contains the same implementation attempted using setuptools for click
 
