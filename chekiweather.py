@@ -46,7 +46,6 @@ def weather_api_fun(cities):
         # click.echo(cities)
         result2 = urllib2.urlopen(result).read()
         data = json.loads(result2)
-        click.echo(data)
         try:
             click.echo(city.ljust(15) +
                        str(data['weather'][0]['description']).ljust(20).title() +
