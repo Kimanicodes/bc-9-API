@@ -1,4 +1,4 @@
 
         [console_scripts]
-        chekiweather=chekiweather:weather_api_func
+        chekiweather=chekiweather:get_cities
     

@@ -12,6 +12,6 @@ setup(
     ],
     entry_points='''
         [console_scripts]
-        chekiweather=chekiweather:weather_api_func(cities)
+        chekiweather=chekiweather:get_cities
     ''',
 )
